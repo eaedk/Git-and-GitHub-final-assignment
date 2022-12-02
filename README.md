@@ -18,7 +18,7 @@ The following steps constitute your assignment :
 The below table must contain the details of the repositories you will create.
 
 
-| #  | Project's Name | Description    | GitHub's Link  |
+|  | Project's Name | Description    | GitHub's Link  |
 |:--:|:--------------:|:--------------:|:--------------:|
 | 1 |  -             |  -             | https://       |
 | 2 |  -             |  -             | https://       |

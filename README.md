@@ -53,3 +53,20 @@ You can run this command bellow being at the root of the repository to be sure y
 ```command
 python -m pytest -v
 ```
+
+If everything is okay, you will have such an output
+
+```terminal
+================================================= test session starts =================================================
+platform xxx -- Python 3.9.6, pytest-7.2.0, pluggy-1.0.0 -- /xxx/python3
+cachedir: .pytest_cache
+rootdir: xxx/Git-and-GitHub-final-assignment
+collected 3 items                                                                                                     
+
+tests/test_filled_table.py::test_not_empty_table PASSED                                                         [ 33%]
+tests/test_filled_table.py::test_not_empty_rows PASSED                                                          [ 66%]
+tests/test_readme_table.py::test_contains_table PASSED                                                          [100%]
+
+================================================== 3 passed in 0.000s ==================================================
+
+```

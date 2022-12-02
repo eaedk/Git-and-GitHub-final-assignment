@@ -15,7 +15,7 @@ The following steps constitute your assignment :
 1. Finally, **commit** with the message `My 3 repositories has been created`, then **push your commit**.
 
 ## Recap Table
-The below table must contain the details of the repositories you will create.
+The below table must contain the details of the repositories you will create, fill it please.
 
 
 |  | Project's Name | Description    | GitHub's Link  |
@@ -24,6 +24,7 @@ The below table must contain the details of the repositories you will create.
 | 2 |  -             |  -             | https://       |
 | 3 |  -             |  -             | https://       |
 
+**NB**: `Do not modify` the general structure of this table above to avoid issue of evaluation, just fill the rows .
 
 ## Setup
 Install the required packages to be able to run the evaluation locally.

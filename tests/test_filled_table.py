@@ -28,15 +28,16 @@ def test_not_empty_rows():
     """This is the test for the implemented solution passing
     valid inputs"""
 
-    df = read_table()
-
-    n_filled_rows = (
-        df.replace("-", "")
+    df = (
+        read_table()
+        .replace("-", "")
         .replace("https://", "")
         .replace(" ", "")
         .drop_duplicates(keep=False)
-        .shape[0]
     )
+    df = df[df["GitHub's Link"] != ""]
+
+    n_filled_rows = df.shape[0]
     n_empty_rows = 3 - n_filled_rows
 
     print(f"[Info] {n_filled_rows} filled rows, {n_empty_rows} empty rows, ")

@@ -35,7 +35,9 @@ def test_not_empty_rows():
         .replace(" ", "")
         .drop_duplicates(keep=False)
     )
-    df = df[df["GitHub's Link"] != ""]
+    df = df[df["Project's Name"] != ""] # exclude projects without Name
+    df = df[df["Description"] != ""] # exclude projects without description
+    df = df[df["GitHub's Link"] != ""] # exclude project without link
 
     n_filled_rows = df.shape[0]
     n_empty_rows = 3 - n_filled_rows

@@ -9,7 +9,7 @@ The following steps constitute your assignment :
 1. **Clone this repository** on your local machine; 
 1. Configure it as described in the `Setup` section;
 1. Select `3` projects, your own ones or projects done during the previous part of the Azubi program ;
-1. **Create a repository** for each project, with a complete and personalized readme file and repository's description ;
+1. **Create one public repository** for each project, with a complete and personalized readme file and repository's description ;
 1. **Commit** `at least 3 times for each repository` while including simple and clear commit's messages, and **push**;
 1. **Fill** the table in the `Recap Table` section with the details of your created repositories.
 1. Finally, **commit** with the message `My 3 repositories has been created`, then **push your commit**.
